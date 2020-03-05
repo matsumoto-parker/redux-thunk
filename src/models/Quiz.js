@@ -43,6 +43,7 @@ class Quiz {
       };
     })
       .map(quizData => {
+        console.log('aaaaaaaa');
         return new Quiz(quizData);
       })
   }
@@ -58,6 +59,8 @@ class Quiz {
       .map(quizData => {
         return new Quiz(quizData);
       })
+
+
   }
 
 }
