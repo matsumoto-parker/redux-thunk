@@ -43,6 +43,7 @@ class Quiz {
       };
     })
       .map(quizData => {
+        console.log('sssssssss');
         return new Quiz(quizData);
       })
   }
