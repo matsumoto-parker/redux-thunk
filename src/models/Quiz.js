@@ -47,7 +47,7 @@ class Quiz {
       })
   }
 
-  static CreateQuizInstancesWithData(quizDataList) {
+  static createQuizInstancesWithData(quizDataList) {
     return quizDataList.map(quizData => {
       return {
         question: he.decode(quizData.question),
@@ -58,9 +58,6 @@ class Quiz {
       .map(quizData => {
         return new Quiz(quizData);
       })
-
-
   }
-
 }
 export default Quiz;

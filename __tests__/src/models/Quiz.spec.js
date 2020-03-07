@@ -98,7 +98,7 @@ describe('Quizクラスのテスト', () => {
           quizFactory()
         ];
   
-        const quizzes = Quiz.CreateQuizInstancesWithData(dummyQuizDataList);
+        const quizzes = Quiz.createQuizInstancesWithData(dummyQuizDataList);
   
         expect( Array.isArray(quizzes) ).toStrictEqual(true);
         expect(quizzes.length).toStrictEqual(dummyQuizDataList.length);
